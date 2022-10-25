@@ -40,7 +40,7 @@ git clone https://github.com/<SEU USUÁRIO>/desenvolvimento-kotlin-android.git
 
 6. Se você estiver usando emulador, abra a aba *Emulator* para observar a execução do código.
 
-7. Explore o aplicativo. Perceba que é possível inserir novos itens na lista e marcá-los como feitos. Como não há implementação de nenhum banco de dados, sempre que você abrir o aplicativo a lista vai estar vazia.
+
 
 ## Parte 2: Implementação de uma to-do list
 
@@ -49,13 +49,22 @@ git clone https://github.com/<SEU USUÁRIO>/desenvolvimento-kotlin-android.git
    
 2. Após abrir o projeto siga o *Passo 4* da *Parte 1* para conectar um dispositivo ou um emulador. Em seguida, clique no botão **Run App** para iniciar a aplicação e
    observe o que acontece. Deve ser criado um aplicativo android com a tela inicial mostrada abaixo, e para inserir uma nova tarefa é só clicar em *Insira uma tarefa*
-   e digitar a tarefa que deseja inserir. Ao clicar em salva a terefa será adicionada na lista.
+   e digitar a tarefa que deseja inserir. Ao clicar em *salvar* a terefa será adicionada na lista.
    
    <p align="center">
     <img width="25%" src="https://github.com/Rodrigo-Panta/deseonvolvimento-kotlin-android/blob/main/images/tela-lista.png" />
    </p>
    
-3. 
+   ```proto
+código
+}
+```
+
+
+## Parte 3: Adicionando o comando de deleção na to-do list
+   
+   
+7. Explore o aplicativo. Perceba que é possível inserir novos itens na lista e marcá-los como feitos. Como não há implementação de nenhum banco de dados, sempre que você abrir o aplicativo a lista vai estar vazia.
 
 Sugestões no final: Incluir um BD local como SQLite para salvar os itens, 
 
