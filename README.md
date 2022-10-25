@@ -44,7 +44,7 @@ git clone https://github.com/<SEU USUÁRIO>/desenvolvimento-kotlin-android.git
 
 ## Parte 2/2: Implementação de exclusão de itens da lista
 
-A exclusão dos itens da lista será feita pelo botão remover, que será implementado pelo código a seguir. Ao clicar nele, ele excluirá todos os itens que estiverem riscados serão excluídos.
+A exclusão dos itens da lista será feita pelo botão remover, que será implementado pelo código a seguir. Ao clicar nele, todos os itens que estiverem riscados serão excluídos.
 
 ```
 res->layout->activity_main.xml
