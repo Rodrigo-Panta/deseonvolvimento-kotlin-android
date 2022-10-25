@@ -1,6 +1,8 @@
 # Desenvolvimento Mobile com Kotlin e Android
 Este repositório contém um aplicativo android desenvolvido com a IDE Android Studio utilizando o modelo Empty Activity. 
 O objetivo desse roteiro é permitir que o usuário tenha o primeiro contato com a linguagem Kotlin e adquira noções de desenvolvimento android com essa linguagem.
+O aplicativo desenvolvido trata-se de uma simples lista de afazeres em que o usuário consegue inserir novas tarefas e marcá-las como prontas. 
+Nesse roteiro, será implementada uma maneira de excluir tarefas que estão prontas.
 
 Primeiramente, é necessária a instalação do Android Studio. Siga o passo a passo presente no link abaixo para o sistema operacional adequado:
 https://developer.android.com/studio/install?hl=pt-br
@@ -31,5 +33,9 @@ git clone https://github.com/<SEU USUÁRIO>/desenvolvimento-kotlin-android.git
     <img width="25%" src="https://github.com/Rodrigo-Panta/deseonvolvimento-kotlin-android/blob/main/images/run-app.png" />
    </p>
 
-6. O emulador e aplicativo irão abir na aba *emulator*. 
+6. Se você estiver usando emulador, abra a aba *Emulator*.
+
+7. Explore o aplicativo. Perceba que é possível inserir novos itens na lista e marcá-los como feitos. Como não há implementação de nenhum banco de dados, sempre que você abrir o aplicativo a lista vai estar vazia.
+
+Sugestões no final: Incluir um BD local como SQLite para salvar os itens, 
 
