@@ -1,6 +1,7 @@
 # Desenvolvimento Mobile com Kotlin e Android
 Este repositório contém um aplicativo android desenvolvido com a IDE Android Studio utilizando o modelo Empty Activity. 
 O objetivo desse roteiro é permitir que o usuário tenha o primeiro contato com a linguagem Kotlin e adquira noções de desenvolvimento android com essa linguagem.
+
 O aplicativo desenvolvido trata-se de uma simples lista de afazeres em que o usuário consegue inserir novas tarefas e marcá-las como prontas. 
 Nesse roteiro, será implementada uma maneira de excluir tarefas que estão prontas.
 
