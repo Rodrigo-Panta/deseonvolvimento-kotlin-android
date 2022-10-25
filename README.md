@@ -1,6 +1,10 @@
 # Desenvolvimento Mobile com Kotlin e Android
-Este repositório contém um aplicativo android desenvolvido com a IDE Android Studio utilizando o modelo Empty Compose Activity. 
+Este repositório contém um aplicativo android desenvolvido com a IDE Android Studio utilizando o modelo Empty Activity. 
+
 O objetivo desse roteiro é permitir que o usuário tenha o primeiro contato com a linguagem Kotlin e adquira noções de desenvolvimento android com essa linguagem.
+
+O aplicativo desenvolvido trata-se de uma simples lista de afazeres em que o usuário consegue inserir novas tarefas e marcá-las como prontas. 
+Nesse roteiro, será implementada uma maneira de excluir tarefas que estão prontas.
 
 Primeiramente, é necessária a instalação do Android Studio. Siga o passo a passo presente no link abaixo para o sistema operacional adequado:
 https://developer.android.com/studio/install?hl=pt-br
@@ -22,12 +26,18 @@ git clone https://github.com/<SEU USUÁRIO>/desenvolvimento-kotlin-android.git
         Se não há nenhum instalado clique em **Device Manager** na tela acima e clique no botão **Create Device**. Na pop up que abrir, selecione o dispositivo desejado e siga até a instalação. Ao finalizar, selecione o dispositivo instalado.
         
 5. Quando o dispositivo desejado estiver selecionado:
-  <p align="center">
-    <img width="70%" src="" />
-  </p>
+   <p align="center">
+    <img width="25%" src="https://github.com/Rodrigo-Panta/deseonvolvimento-kotlin-android/blob/main/images/dispositivo-selecionado.png" />
+   </p>
+   
+   clique no botão **Run App** para iniciar a aplicação:
+   <p align="center">
+    <img width="25%" src="https://github.com/Rodrigo-Panta/deseonvolvimento-kotlin-android/blob/main/images/run-app.png" />
+   </p>
 
-    clique no botão **Run App** para iniciar a aplicação:
-  <p align="center">
-    <img width="70%" src="" />
-  </p>
+6. Se você estiver usando emulador, abra a aba *Emulator*.
+
+7. Explore o aplicativo. Perceba que é possível inserir novos itens na lista e marcá-los como feitos. Como não há implementação de nenhum banco de dados, sempre que você abrir o aplicativo a lista vai estar vazia.
+
+Sugestões no final: Incluir um BD local como SQLite para salvar os itens, 
 
