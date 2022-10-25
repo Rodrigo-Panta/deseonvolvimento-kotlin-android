@@ -6,7 +6,7 @@ O objetivo desse roteiro é permitir que o usuário tenha o primeiro contato com
 O aplicativo desenvolvido trata-se de uma simples lista de afazeres em que o usuário consegue inserir novas tarefas e marcá-las como prontas. 
 Nesse roteiro, será implementada uma maneira de excluir tarefas que estão prontas.
 
-## Parte 1/2: Instalação do projeto
+## Parte 1: Instalação do projeto
 Primeiramente, é necessária a instalação do Android Studio. Instale uma versão igual ou superior a **2021.3.1 Patch 1**
 
 Siga o passo a passo presente no link abaixo para o sistema operacional adequado:
@@ -38,30 +38,24 @@ git clone https://github.com/<SEU USUÁRIO>/desenvolvimento-kotlin-android.git
     <img width="25%" src="https://github.com/Rodrigo-Panta/deseonvolvimento-kotlin-android/blob/main/images/run-app.png" />
    </p>
 
-6. Se você estiver usando emulador, abra a aba *Emulator*.
+6. Se você estiver usando emulador, abra a aba *Emulator* para observar a execução do código.
 
 7. Explore o aplicativo. Perceba que é possível inserir novos itens na lista e marcá-los como feitos. Como não há implementação de nenhum banco de dados, sempre que você abrir o aplicativo a lista vai estar vazia.
 
-## Parte 2/2: Implementação de exclusão de itens da lista
+## Parte 2: Implementação de uma to-do list
 
-A exclusão dos itens da lista será feita pelo botão remover, que será implementado pelo código a seguir. Ao clicar nele, todos os itens que estiverem riscados serão excluídos.
-
-```
-res->layout->activity_main.xml
-java -> com.example.todolistaap->TodoAdapter
-
-fun removeDone(){
-  todos.removeAll{ todo ->
-    todo.isChecked
-  }
-notifyDataSetChanged()
-}
-
-java -> com.example.todolistaap->MainActivity
-  btnDeleteDone.setOnClickListener{
-    todoAdapter.removeDone()
-  }
-```
+1. Primeiramente iremos abrir o arquivo referente ao projeto da to-do list, para isso clique em *File*, no canto superior direito do Android Studio e depois clique em
+   *open*, e então abra o projeto **ToDoListApp**.
+   
+2. Após abrir o projeto siga o *Passo 4* da *Parte 1* para conectar um dispositivo ou um emulador. Em seguida, clique no botão **Run App** para iniciar a aplicação e
+   observe o que acontece. Deve ser criado um aplicativo android com a tela inicial mostrada abaixo, e para inserir uma nova tarefa é só clicar em *Insira uma tarefa*
+   e digitar a tarefa que deseja inserir. Ao clicar em salva a terefa será adicionada na lista.
+   
+   <p align="center">
+    <img width="25%" src="https://github.com/Rodrigo-Panta/deseonvolvimento-kotlin-android/blob/main/images/run-app.png" />
+   </p>
+   
+3. 
 
 Sugestões no final: Incluir um BD local como SQLite para salvar os itens, 
 
