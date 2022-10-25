@@ -44,5 +44,24 @@ git clone https://github.com/<SEU USUÁRIO>/desenvolvimento-kotlin-android.git
 
 ## Parte 2/2: Implementação de exclusão de itens da lista
 
+A exclusão dos itens da lista será feita pelo botão remover. ao clicar, ele excluirá todos ps itens que estiverem riscados.
+
+```
+res->layout->activity_main.xml
+java -> com.example.todolistaap->TodoAdapter
+
+fun removeDone(){
+  todos.removeAll{ todo ->
+    todo.isChecked
+  }
+notifyDataSetChanged()
+}
+
+java -> com.example.todolistaap->MainActivity
+  btnDeleteDone.setOnClickListener{
+    todoAdapter.removeDone()
+  }
+```
+
 Sugestões no final: Incluir um BD local como SQLite para salvar os itens, 
 
