@@ -31,3 +31,5 @@ git clone https://github.com/<SEU USUÁRIO>/desenvolvimento-kotlin-android.git
     <img width="25%" src="https://github.com/Rodrigo-Panta/deseonvolvimento-kotlin-android/blob/main/images/run-app.png" />
    </p>
 
+6. O emulador e aplicativo irão abir na aba *emulator*. 
+
