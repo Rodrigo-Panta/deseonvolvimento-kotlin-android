@@ -23,11 +23,11 @@ git clone https://github.com/<SEU USUÁRIO>/desenvolvimento-kotlin-android.git
         
 5. Quando o dispositivo desejado estiver selecionado:
    <p align="center">
-    <img width="30%" src="https://github.com/Rodrigo-Panta/deseonvolvimento-kotlin-android/blob/main/images/dispositivo-selecionado.png" />
+    <img width="10%" src="https://github.com/Rodrigo-Panta/deseonvolvimento-kotlin-android/blob/main/images/dispositivo-selecionado.png" />
    </p>
    
    clique no botão **Run App** para iniciar a aplicação:
    <p align="center">
-    <img width="30%" src="https://github.com/Rodrigo-Panta/deseonvolvimento-kotlin-android/blob/main/images/run-app.png" />
+    <img width="10%" src="https://github.com/Rodrigo-Panta/deseonvolvimento-kotlin-android/blob/main/images/run-app.png" />
    </p>
 
