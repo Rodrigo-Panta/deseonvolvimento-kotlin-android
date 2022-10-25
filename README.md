@@ -55,10 +55,6 @@ git clone https://github.com/<SEU USUÁRIO>/desenvolvimento-kotlin-android.git
     <img width="25%" src="https://github.com/Rodrigo-Panta/deseonvolvimento-kotlin-android/blob/main/images/tela-lista.png" />
    </p>
    
-   ```proto
-código
-}
-```
 
 
 ## Parte 3: Adicionando o comando de deleção na to-do list
