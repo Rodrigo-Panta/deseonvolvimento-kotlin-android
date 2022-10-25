@@ -1,5 +1,5 @@
 # Desenvolvimento Mobile com Kotlin e Android
-Este repositório contém um aplicativo android desenvolvido com a IDE Android Studio utilizando o modelo Empty Compose Activity. 
+Este repositório contém um aplicativo android desenvolvido com a IDE Android Studio utilizando o modelo Empty Activity. 
 O objetivo desse roteiro é permitir que o usuário tenha o primeiro contato com a linguagem Kotlin e adquira noções de desenvolvimento android com essa linguagem.
 
 Primeiramente, é necessária a instalação do Android Studio. Siga o passo a passo presente no link abaixo para o sistema operacional adequado:
@@ -22,12 +22,12 @@ git clone https://github.com/<SEU USUÁRIO>/desenvolvimento-kotlin-android.git
         Se não há nenhum instalado clique em **Device Manager** na tela acima e clique no botão **Create Device**. Na pop up que abrir, selecione o dispositivo desejado e siga até a instalação. Ao finalizar, selecione o dispositivo instalado.
         
 5. Quando o dispositivo desejado estiver selecionado:
-  <p align="center">
+   <p align="center">
     <img width="70%" src="" />
-  </p>
-
-    clique no botão **Run App** para iniciar a aplicação:
-  <p align="center">
+   </p>
+   
+   clique no botão **Run App** para iniciar a aplicação:
+   <p align="center">
     <img width="70%" src="" />
-  </p>
+   </p>
 
