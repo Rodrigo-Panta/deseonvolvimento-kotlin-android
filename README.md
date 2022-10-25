@@ -52,7 +52,7 @@ git clone https://github.com/<SEU USUÁRIO>/desenvolvimento-kotlin-android.git
    e digitar a tarefa que deseja inserir. Ao clicar em salva a terefa será adicionada na lista.
    
    <p align="center">
-    <img width="25%" src="https://github.com/Rodrigo-Panta/deseonvolvimento-kotlin-android/blob/main/images/run-app.png" />
+    <img width="25%" src="https://github.com/Rodrigo-Panta/deseonvolvimento-kotlin-android/blob/main/images/tela-lista.png" />
    </p>
    
 3. 
