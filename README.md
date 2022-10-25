@@ -6,7 +6,10 @@ O objetivo desse roteiro é permitir que o usuário tenha o primeiro contato com
 O aplicativo desenvolvido trata-se de uma simples lista de afazeres em que o usuário consegue inserir novas tarefas e marcá-las como prontas. 
 Nesse roteiro, será implementada uma maneira de excluir tarefas que estão prontas.
 
-Primeiramente, é necessária a instalação do Android Studio. Siga o passo a passo presente no link abaixo para o sistema operacional adequado:
+## Parte 1/2: Instalação do projeto
+Primeiramente, é necessária a instalação do Android Studio. Instale uma versão igual ou superior a **2021.3.1 Patch 1**
+
+Siga o passo a passo presente no link abaixo para o sistema operacional adequado:
 https://developer.android.com/studio/install?hl=pt-br
 
 Após a instalação do Android Studio, siga os seguintes passos:
@@ -18,11 +21,11 @@ Após a instalação do Android Studio, siga os seguintes passos:
 ```
 git clone https://github.com/<SEU USUÁRIO>/desenvolvimento-kotlin-android.git
 ```
-3. Abra o Android Studio. Na tela inicial, clique em **Projects** na aba lateral esquerda e clique em **Open**. Navegue até o diretório do repositório e selecione a pasta **MyFirstApp**, clique em OK, e o projeto será aberto.
+3. Abra o Android Studio. Na tela inicial, clique em **Projects** na aba lateral esquerda e clique em **Open**. Navegue até o diretório do repositório e selecione a pasta **TodoListApp**, clique em OK, e o projeto será aberto.
 
 4. Você pode conectar um dispositivo físico ou usar um emulador para executar o aplicativo.
-  4.1. Para usar um dispositivo físico, é necessário ativar a depuração USB do seu Android: https://www.techtudo.com.br/dicas-e-tutoriais/2018/06/como-ativar-a-depuracao-usb-do-android.ghtml.
-  4.2.  Para usar um emulador, verifique se há algum instalado e o selecione na tela.
+  4.1. Para usar um dispositivo físico, é necessário conectá-lo ao computador via USB e ativar a depuração USB do seu Android: https://www.techtudo.com.br/dicas-e-tutoriais/2018/06/como-ativar-a-depuracao-usb-do-android.ghtml.
+  4.2.  Para usar um emulador, verifique se há algum instalado e o selecione na aba **Device Manager**.
         Se não há nenhum instalado clique em **Device Manager** na tela acima e clique no botão **Create Device**. Na pop up que abrir, selecione o dispositivo desejado e siga até a instalação. Ao finalizar, selecione o dispositivo instalado.
         
 5. Quando o dispositivo desejado estiver selecionado:
@@ -38,6 +41,8 @@ git clone https://github.com/<SEU USUÁRIO>/desenvolvimento-kotlin-android.git
 6. Se você estiver usando emulador, abra a aba *Emulator*.
 
 7. Explore o aplicativo. Perceba que é possível inserir novos itens na lista e marcá-los como feitos. Como não há implementação de nenhum banco de dados, sempre que você abrir o aplicativo a lista vai estar vazia.
+
+## Parte 2/2: Implementação de exclusão de itens da lista
 
 Sugestões no final: Incluir um BD local como SQLite para salvar os itens, 
 
