@@ -9,7 +9,7 @@ Nesse roteiro, será implementada uma maneira de excluir tarefas que estão pron
 ## Introdução a linguagem
 Em programas Kotlin, a função main() é o local específico do código em que o compilador Kotlin é iniciado. Em apps Android, a função onCreate() cumpre esse papel. A função onCreate() é o ponto de entrada do app e chama outras funções para criar a interface do usuário.
 
-Observe o código abaixo 
+Observe abaixo o código de um projeto que faz um print na tela da frase *"Hello Android!"*
 
 ```kotlin
 class MainActivity : ComponentActivity() {
@@ -30,7 +30,18 @@ class MainActivity : ComponentActivity() {
 }
 ```
 
-Nesse código é possível observar as interações entre as funções **main()**, **onCreate()** e tmabém a função **setContent()**. 
+Nesse código é possível observar as interações entre as funções **main()**, **onCreate()** e tmabém a função **setContent()**. A função **setContent()** na função **onCreate()** é usada para definir o layout usando funções de composição. Todas as funções marcadas com a anotação **@Composable** podem ser chamadas na função **setContent()** ou em outras funções de composição. A anotação diz ao compilador Kotlin que essa função é usada pelo Jetpack Compose para gerar a IU (Interface). Note que no caso desse projeto está sendo usado um modelo Compose diferente do modelo Empty Activity usado no projeto **ToDoListApp**, e o objetivo aqui é somente introduzir um pouco da linguagem kotlin para voçes.
+
+Agora, observe a função **Greeting()**. A função **Greeting()** é de composição e, por esse motivo, a anotação **@Composable** aparece acima dela. Uma função de composição recebe uma entrada e gera o que vai ser mostrado na tela.
+
+```kotlin
+@Composable
+fun Greeting(name: String) {
+   Text(text = "Hello Android!")
+}
+```
+
+Nesse caso, como dito anteriormente, será gerado na tela a frase *"Hello Android!"*.
 
 No arquivo *MainActivity.kt* do projeto **ToDoListApp** encontrado em ```java -> com.example.todolistaap -> MainActivity``` é possível observar o funcionamento 
 da função main() referente a esse projeto. É recomendado que voçe estude um pouco a função main() antes de seguir as atividades do roteiro para que consiga visualizar
