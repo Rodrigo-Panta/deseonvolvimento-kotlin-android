@@ -6,14 +6,37 @@ O objetivo desse roteiro é permitir que o usuário tenha o primeiro contato com
 O aplicativo desenvolvido trata-se de uma simples lista de afazeres em que o usuário consegue inserir novas tarefas e marcá-las como prontas. 
 Nesse roteiro, será implementada uma maneira de excluir tarefas que estão prontas.
 
-## Arquivos Principais
-Em programas Kotlin, a função main() é o local específico do código em que o compilador Kotlin é iniciado. Em apps Android, a função onCreate() cumpre esse papel.
+## Introdução a linguagem
+Em programas Kotlin, a função main() é o local específico do código em que o compilador Kotlin é iniciado. Em apps Android, a função onCreate() cumpre esse papel. A função onCreate() é o ponto de entrada do app e chama outras funções para criar a interface do usuário.
 
-No arquivo *MainActivity.kt* do projeto **TodoListApp** encontrado em ```java -> com.example.todolistaap -> MainActivity``` é possível observar o funcionamento 
+Observe o código abaixo 
+
+```kotlin
+class MainActivity : ComponentActivity() {
+   override fun onCreate(savedInstanceState: Bundle?) {
+       super.onCreate(savedInstanceState)
+       setContent {
+           GreetingCardTheme {
+               // A surface container using the 'background' color from the theme
+               Surface(
+                   modifier = Modifier.fillMaxSize(),
+                   color = MaterialTheme.colors.background
+               ) {
+                   Greeting("Android")
+               }
+           }
+       }
+   }
+}
+```
+
+Nesse código é possível observar as interações entre as funções **main()**, **onCreate()** e tmabém a função **setContent()**. 
+
+No arquivo *MainActivity.kt* do projeto **ToDoListApp** encontrado em ```java -> com.example.todolistaap -> MainActivity``` é possível observar o funcionamento 
 da função main() referente a esse projeto. É recomendado que voçe estude um pouco a função main() antes de seguir as atividades do roteiro para que consiga visualizar
 melhor o que está acontecendo na execução do projeto.
 
-## Parte 1: Instalação do projeto
+## Parte 1: Instalação do projeto ToDoListApp
 Primeiramente, é necessária a instalação do Android Studio. Instale uma versão igual ou superior a **2021.3.1 Patch 1**
 
 Siga o passo a passo presente no link abaixo para o sistema operacional adequado:
