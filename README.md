@@ -45,8 +45,8 @@ fun Greeting(name: String) {
 Nesse caso, como dito anteriormente, será gerado na tela a frase *"Hello Android!"*.
 
 No arquivo *MainActivity.kt* do projeto **ToDoListApp** encontrado em ```java -> com.example.todolistaap -> MainActivity``` é possível observar o funcionamento 
-da função main() referente a esse projeto. É recomendado que voçe estude um pouco a função main() antes de seguir as atividades do roteiro para que consiga visualizar
-melhor o que está acontecendo na execução do projeto.
+da função main() referente a esse projeto. É recomendado que estude um pouco a função main() antes de seguir as atividades do roteiro para que consiga visualizar
+melhor o que está acontecendo na execução do projeto e como as funções estão relacionadas.
 
 ## Parte 1: Instalação do projeto ToDoListApp
 Primeiramente, é necessária a instalação do Android Studio. Instale uma versão igual ou superior a **2021.3.1 Patch 1**
