@@ -148,7 +148,25 @@ Adicione o código abaixo após **fun btnAddTodo.setOnClickListener**
   }
 ```
 
+Após isso, selecione o dispositivo que deseja usar e clique no botão **Run App**, como mostrado no passo 5 da Parte 1.
 
+Em seguida, será possível ver o programa em execução, e se tiver seguido todos os passos será possível inserir tarefas, marcar tarefas como feitas e também excluir as tarefas marcadas como feitas.
 
-Sugestões no final: Incluir um BD local como SQLite para salvar os itens, 
+## Comentários Finais
 
+Nesse roteiro foi apresentada uma breve introdução ao desenvolvimento Kotlin e Android, por meio de explicações e de um exemplo prático. 
+
+No entanto, é importante ressaltar que os exemplos apresentado não são exemplos complexos e que o tema *"Desenvolvimento Kotlin e Android"* vai muito além do que foi apresentado aqui.
+
+Deixamos duas sugestões finais
+
+1. Estude e aprofunde mais sobre o tema caso tenha interesse.
+
+2. Tente incluir um Banco de Dados local como "SQLite" para salvar os itens adicionados a sua lista. 
+
+## Grupo
+
+Gedeão Pereira Lima
+Pedro Santos Oliveira
+Rodrigo Luiz Panta Júnior
+Suellen Regina dos Santos
