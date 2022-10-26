@@ -51,7 +51,7 @@ git clone https://github.com/<SEU USUÁRIO>/desenvolvimento-kotlin-android.git
 
 
 
-## Parte 2: Adicionando o comando de deleção na to-do list
+## Parte 2: Adicionando o comando de deleção na Todo List
 
 1. A exclusão dos itens da lista será feita pelo botão remover, que será implementado pelo código a seguir. Ao clicar nele, todos os itens que estiverem riscados serão excluídos.
 
