@@ -66,9 +66,8 @@ git clone https://github.com/<SEU USUÁRIO>/desenvolvimento-kotlin-android.git
 3. Abra o Android Studio. Na tela inicial, clique em **Projects** na aba lateral esquerda e clique em **Open**. Navegue até o diretório do repositório e selecione a pasta **ToDoListApp**, clique em OK, e o projeto será aberto.
 
 4. Você pode conectar um dispositivo físico ou usar um emulador para executar o aplicativo.
-  4.1. Para usar um dispositivo físico, é necessário conectá-lo ao computador via USB e ativar a depuração USB do seu Android: https://www.techtudo.com.br/dicas-e-tutoriais/2018/06/como-ativar-a-depuracao-usb-do-android.ghtml.
-  4.2.  Para usar um emulador, verifique se há algum instalado e o selecione na aba **Device Manager**.
-        Se não há nenhum instalado clique em **Device Manager** na tela acima e clique no botão **Create Device**. Na pop up que abrir, selecione o dispositivo desejado e siga até a instalação. Ao finalizar, selecione o dispositivo instalado.
+   4.1. Para usar um dispositivo físico, é necessário conectá-lo ao computador via USB e ativar a depuração USB do seu Android: https://www.techtudo.com.br/dicas-e-tutoriais/2018/06/como-ativar-a-depuracao-usb-do-android.ghtml.
+   4.2.  Para usar um emulador, verifique se há algum instalado e o selecione na aba **Device Manager**. Se não há nenhum instalado clique em **Device Manager** na tela acima e clique no botão **Create Device**. Na pop up que abrir, selecione o dispositivo desejado e siga até a instalação. Ao finalizar, selecione o dispositivo instalado.
         
 5. Quando o dispositivo desejado estiver selecionado:
    <p align="center">
