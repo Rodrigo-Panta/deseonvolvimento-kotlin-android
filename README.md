@@ -65,7 +65,7 @@ Selecione no canto superior direito o modo Code ou Split para visualizar o codig
 
 Adicione o código abaixo após o último botão.
 
-```
+```xml
 <Button
       android:id="@+id/btnDeleteDone"
       android:layout_width="414dp"
