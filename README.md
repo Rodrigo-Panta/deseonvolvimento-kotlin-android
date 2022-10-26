@@ -61,7 +61,7 @@ Primeiro Vamos criar o botão na tela Principal com o ID btnDeleteDone e o texto
 Abra o arquivo
 ```res -> layout -> activity_main.xml```
 
-Selecione superior direito o modo Code ou Split para visualizar o codigo.
+Selecione no canto superior direito o modo Code ou Split para visualizar o codigo.
 
 Adicione o código abaixo após o último botão.
 
