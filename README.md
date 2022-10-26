@@ -47,13 +47,13 @@ git clone https://github.com/<SEU USUÁRIO>/desenvolvimento-kotlin-android.git
     <img width="25%" src="https://github.com/Rodrigo-Panta/deseonvolvimento-kotlin-android/blob/main/images/tela-lista.png" />
    </p>
 
-7. Explore o aplicativo. Perceba que é possível inserir novos itens na lista e marcá-los como feitos. Como não há implementação de nenhum banco de dados, sempre que você abrir o aplicativo a lista vai estar vazia.
+8. Explore o aplicativo. Perceba que é possível inserir novos itens na lista e marcá-los como feitos. Como não há implementação de nenhum banco de dados, sempre que você abrir o aplicativo a lista vai estar vazia.
 
 
 
 ## Parte 2: Adicionando o comando de deleção na Todo List
 
-1. A exclusão dos itens da lista será feita pelo botão remover, que será implementado pelo código a seguir. Ao clicar nele, todos os itens que estiverem riscados serão excluídos.
+Agora você irá inserir um botão remover, que fará a exclusão dos itens da lista, através do código a seguir. Ao clicar nele, todos os itens que estiverem marcados como pronto serão excluídos.
 
 ```
 res->layout->activity_main.xml
