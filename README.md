@@ -31,7 +31,7 @@ class MainActivity : ComponentActivity() {
 }
 ```
 
-Nesse código é possível observar as interações entre as funções **main()**, **onCreate()** e também a função **setContent()**. A função **setContent()** na função **onCreate()** é usada para definir o layout usando funções de composição. Todas as funções marcadas com a anotação **@Composable** podem ser chamadas na função **setContent()** ou em outras funções de composição. A anotação diz ao compilador Kotlin que essa função é usada pelo Jetpack Compose para gerar a IU (Interface). Note que no caso desse projeto está sendo usado um modelo Compose diferente do modelo Empty Activity usado no projeto **ToDoListApp**, e o objetivo aqui é somente introduzir um pouco da linguagem kotlin para voçes.
+Nesse código é possível observar as interações entre as funções **main()**, **onCreate()** e também a função **setContent()**. A função **setContent()** na função **onCreate()** é usada para definir o layout usando funções de composição. Todas as funções marcadas com a anotação **@Composable** podem ser chamadas na função **setContent()** ou em outras funções de composição. A anotação diz ao compilador Kotlin que essa função é usada pelo Jetpack Compose para gerar a IU (Interface). Note que no caso desse projeto está sendo usado um modelo Compose diferente do modelo Empty Activity usado no projeto **ToDoListApp**, uma vez que o objetivo aqui é somente introduzir um pouco da linguagem kotlin.
 
 Agora, observe a função **Greeting()**. A função **Greeting()** é de composição e, por esse motivo, a anotação **@Composable** aparece acima dela. Uma função de composição recebe uma entrada e gera o que vai ser mostrado na tela.
 
