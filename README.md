@@ -3,8 +3,9 @@ Este repositório contém um aplicativo android desenvolvido com a IDE Android S
 
 O objetivo desse roteiro é permitir que o usuário tenha o primeiro contato com a linguagem Kotlin e adquira noções de desenvolvimento android com essa linguagem.
 
-O aplicativo desenvolvido trata-se de uma simples lista de afazeres em que o usuário consegue inserir novas tarefas e marcá-las como prontas. 
-Nesse roteiro, será implementada uma maneira de excluir tarefas que estão prontas.
+O aplicativo **ToDoListApp** apresentado trata-se de uma simples lista de afazeres em que o usuário consegue inserir novas tarefas e marcá-las como feitas.
+
+Nesse roteiro, será implementada uma maneira de excluir tarefas da lista que estejam marcadas como feitas.
 
 ## Introdução a linguagem
 Em programas Kotlin, a função main() é o local específico do código em que o compilador Kotlin é iniciado. Em apps Android, a função onCreate() cumpre esse papel. A função onCreate() é o ponto de entrada do app e chama outras funções para criar a interface do usuário.
