@@ -56,12 +56,12 @@ git clone https://github.com/<SEU USUÁRIO>/desenvolvimento-kotlin-android.git
 Nessa parte do roteiro você irá inserir um botão **Remover** no aplicativo android, que fará a exclusão dos itens da lista que estiverem marcados como feitos. A inclusão do botão **Remover** será feita utilizando o código mostrado abaixo e acrescentando ele ao projeto inicial **ToDoListApp**. Não será necessário implementar 
 nenhum código adicional, apenas copiar o código abaixo e colar no seu projeto.
 
-Primeiro Vamos criar o botão na tela Principal com o ID btnDeleteDone e o texto "Remover Feitos".
+Primeiro Vamos criar o botão na tela Principal com o ID **btnDeleteDone** e o texto **"Remover Feitos"**.
 
 Abra o arquivo
 ```res -> layout -> activity_main.xml```
 
-Selecione no canto superior direito o modo Code ou Split para visualizar o codigo.
+Selecione no canto superior direito o modo **Code** ou **Split** para conseguir visualizar o código a ser alterado.
 
 Adicione o código abaixo após o último botão.
 
@@ -78,12 +78,12 @@ Adicione o código abaixo após o último botão.
       app:layout_constraintStart_toStartOf="parent" />
 ```
 
-Agora vamos criar a função que remove da lista todos os itens marcados.
+Em seguida, vamos criar a função que remove da lista todos os itens marcados como feitos.
 
 Abra o arquivo
-```java -> com.example.todolistaap -> TodoAdapter```
+```java -> com.example.todolistapp -> TodoAdapter```
 
-Adicione o código abaixo após a fun addTodo
+Adicione função abaixo após **fun addTodo**
 
 ```kotlin
 fun removeDone(){
@@ -93,12 +93,12 @@ fun removeDone(){
 notifyDataSetChanged()
 }
 ```
-Agora falta apenas adicionar a ação no botão que chama a função.
+Por fim, falta apenas adicionar a ação no botão que chama a função.
 
 Abra o arquivo 
 ```java -> com.example.todolistaap -> MainActivity```
 
-Adicione o código abaixo após a fun btnAddTodo.setOnClickListener
+Adicione o código abaixo após **fun btnAddTodo.setOnClickListener**
 
 ```kotlin
   btnDeleteDone.setOnClickListener{
