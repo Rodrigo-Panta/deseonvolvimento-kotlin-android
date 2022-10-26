@@ -8,7 +8,7 @@ O aplicativo **ToDoListApp** apresentado trata-se de uma simples lista de afazer
 Nesse roteiro, será implementada uma maneira de excluir tarefas da lista que estejam marcadas como feitas.
 
 ## Introdução a linguagem
-Em programas Kotlin, a função main() é o local específico do código em que o compilador Kotlin é iniciado. Em apps Android, a função onCreate() cumpre esse papel. A função onCreate() é o ponto de entrada do app e chama outras funções para criar a interface do usuário.
+Em programas Kotlin, a função **main()** é o local específico do código em que o compilador Kotlin é iniciado. Em apps Android, a função **onCreate()** cumpre esse papel. A função **onCreate()** é o ponto de entrada do app e chama outras funções para criar a interface do usuário.
 
 Observe abaixo a função **main()** de um projeto que faz um print na tela da frase *"Hello Android!"*
 
