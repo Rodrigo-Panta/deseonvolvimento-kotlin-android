@@ -165,8 +165,4 @@ Deixamos duas sugestões finais
 
 ## Grupo
 
-1.Integrantes do Grupo
-   -Gedeão Pereira Lima
-   -Pedro Santos Oliveira
-   -Rodrigo Luiz Panta Júnior
-   -Suellen Regina dos Santos
+**Gedeão Pereira Lima**, **Pedro Santos Oliveira**, **Rodrigo Luiz Panta Júnior** e **Suellen Regina dos Santos**
