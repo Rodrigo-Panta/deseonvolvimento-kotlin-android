@@ -6,6 +6,13 @@ O objetivo desse roteiro é permitir que o usuário tenha o primeiro contato com
 O aplicativo desenvolvido trata-se de uma simples lista de afazeres em que o usuário consegue inserir novas tarefas e marcá-las como prontas. 
 Nesse roteiro, será implementada uma maneira de excluir tarefas que estão prontas.
 
+## Arquivos Principais
+Em programas Kotlin, a função main() é o local específico do código em que o compilador Kotlin é iniciado. Em apps Android, a função onCreate() cumpre esse papel.
+
+No arquivo *MainActivity.kt* do projeto **TodoListApp** encontrado em ```java -> com.example.todolistaap -> MainActivity``` é possível observar o funcionamento 
+da função main() referente a esse projeto. É recomendado que voçe estude um pouco a função main() antes de seguir as atividades do roteiro para que consiga visualizar
+melhor o que está acontecendo na execução do projeto.
+
 ## Parte 1: Instalação do projeto
 Primeiramente, é necessária a instalação do Android Studio. Instale uma versão igual ou superior a **2021.3.1 Patch 1**
 
@@ -21,7 +28,7 @@ Após a instalação do Android Studio, siga os seguintes passos:
 ```
 git clone https://github.com/<SEU USUÁRIO>/desenvolvimento-kotlin-android.git
 ```
-3. Abra o Android Studio. Na tela inicial, clique em **Projects** na aba lateral esquerda e clique em **Open**. Navegue até o diretório do repositório e selecione a pasta **TodoListApp**, clique em OK, e o projeto será aberto.
+3. Abra o Android Studio. Na tela inicial, clique em **Projects** na aba lateral esquerda e clique em **Open**. Navegue até o diretório do repositório e selecione a pasta **ToDoListApp**, clique em OK, e o projeto será aberto.
 
 4. Você pode conectar um dispositivo físico ou usar um emulador para executar o aplicativo.
   4.1. Para usar um dispositivo físico, é necessário conectá-lo ao computador via USB e ativar a depuração USB do seu Android: https://www.techtudo.com.br/dicas-e-tutoriais/2018/06/como-ativar-a-depuracao-usb-do-android.ghtml.
