@@ -151,6 +151,12 @@ Após isso, selecione o dispositivo que deseja usar e clique no botão **Run App
 
 Em seguida, será possível ver o programa em execução, e se tiver seguido todos os passos será possível inserir tarefas, marcar tarefas como feitas e também excluir as tarefas marcadas como feitas.
 
+A interface do projeto será como a interface apresentada abaixo
+
+<p align="center">
+    <img width="25%" src="https://github.com/Rodrigo-Panta/deseonvolvimento-kotlin-android/blob/main/images/tela-lista.png" />
+   </p>
+
 ## Comentários Finais
 
 Nesse roteiro foi apresentada uma breve introdução ao desenvolvimento Kotlin e Android, por meio de explicações e de um exemplo prático. 
