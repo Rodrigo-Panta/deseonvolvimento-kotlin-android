@@ -139,7 +139,7 @@ Por fim, falta apenas adicionar a ação no botão que chama a função.
 Abra o arquivo 
 ```java -> com.example.todolistaap -> MainActivity```
 
-Adicione o código abaixo após **fun btnAddTodo.setOnClickListener**
+Adicione o código abaixo após **btnAddTodo.setOnClickListener**
 
 ```kotlin
   btnDeleteDone.setOnClickListener{
