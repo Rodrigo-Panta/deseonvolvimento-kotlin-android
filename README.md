@@ -159,9 +159,9 @@ A interface do projeto será como a interface apresentada abaixo
 
 ## Comentários Finais
 
-Nesse roteiro foi apresentada uma breve introdução ao desenvolvimento Kotlin e Android, por meio de explicações e de um exemplo prático. 
+Nesse roteiro foi apresentada uma breve introdução ao desenvolvimento mobile com Kotlin e Android, por meio de explicações e de um exemplo prático. 
 
-No entanto, é importante ressaltar que os exemplos apresentado não são exemplos complexos e que o tema *"Desenvolvimento Kotlin e Android"* vai muito além do que foi apresentado aqui.
+No entanto, é importante ressaltar que os exemplos apresentado não são exemplos complexos e que o tema *"Desenvolvimento Mobile com Kotlin e Android"* vai muito além do que foi apresentado aqui.
 
 Deixamos duas sugestões finais
 
