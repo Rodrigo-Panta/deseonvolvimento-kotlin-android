@@ -90,7 +90,15 @@ git clone https://github.com/<SEU USUÁRIO>/desenvolvimento-kotlin-android.git
 
 9. Explore o aplicativo. Perceba que é possível inserir novos itens na lista e marcá-los como feitos. Como não há implementação de nenhum banco de dados, sempre que você abrir o aplicativo a lista vai estar vazia.
 
-
+### Estrutura dos arquivos
+      
+      No projeto, cinco principais arquivos compõem a parte de desenvolvimento:
+      
+         * src/main/java/com/example/MainActivity.kt: arquivo kotlin que define a tela única do aplicativo e suas configurações. Toda classe Activity em aplicativos kotlin tem essa função. Como há apenas uma tela, há apenas uma activity.
+         * src/main/java/com/example/Todo.kt: uma classe que funciona como estrutura de dados para um item de tarefa, uma instância dessa classe possui os atributos de um item.
+         * src/main/java/com/example/TodoAdapter.kt: Classe que funciona como um controlador da lista de afazeres, manipulando a lista, e realizando a interface entre os dados armazenados e os expostos na tela.
+         * deseonvolvimento-kotlin-android/ToDoListApp/app/src/main/res/layout/activity_main.xml: arquivos xml em servem para definir o layout de uma tela ou componente da tela, nesse caso, define o layout da tela do app.
+         * deseonvolvimento-kotlin-android/ToDoListApp/app/src/main/res/layout/items_todo.xml: arquivo que define o layout de um item da lista de afazeres.
 
 ## Parte 2: Adicionando o comando de deleção na Todo List
 
