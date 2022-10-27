@@ -154,7 +154,7 @@ Em seguida, será possível ver o programa em execução, e se tiver seguido tod
 A interface do projeto será como a interface apresentada abaixo
 
 <p align="center">
-    <img width="25%" src="https://github.com/Rodrigo-Panta/deseonvolvimento-kotlin-android/blob/main/images/tela-lista.png" />
+    <img width="25%" src="https://github.com/Rodrigo-Panta/deseonvolvimento-kotlin-android/blob/main/images/tela-lista-2.png" />
    </p>
 
 ## Comentários Finais
